@@ -1,12 +1,13 @@
 package com.connectEdu.crudProject.service;
 
-import java.util.Optional;
-
-import org.springframework.beans.factory.annotation.Autowired;
 
 import com.connectEdu.crudProject.model.Recurso;
 import com.connectEdu.crudProject.repository.RecursoRepsoitory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+@Service
 public class RecursoServiceImpl implements RecursoService{
     @Autowired
     private RecursoRepsoitory recursoRepsoitory;
@@ -30,13 +31,13 @@ public class RecursoServiceImpl implements RecursoService{
             recursoEncontrado.get().setVisibilidad(recurso.getVisibilidad());
             this.newRecurso(recursoEncontrado.get());
         }
-        return null ; 
+        return null ;
     }
 
     @Override
-    public Boolean deletRecurso(Integer idRecurso) {
+    public Boolean deletRecurso(Long idRecurso) {
         this.recursoRepsoitory.deleteById(idRecurso);
         return true;
     }
-    
+
 }

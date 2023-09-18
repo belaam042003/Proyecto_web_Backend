@@ -11,7 +11,7 @@ import lombok.Data;
 public class Recurso {
     @Id
     @Column
-    private Integer id;
+    private Long id;
     @Column
     private String urlImagen;
     @Column
