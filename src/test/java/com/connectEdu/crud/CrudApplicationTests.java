@@ -1,10 +1,10 @@
-package com.connectEdu.crudProject;
+package com.connectEdu.crud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudProjectApplicationTests {
+class CrudApplicationTests {
 
 	@Test
 	void contextLoads() {
