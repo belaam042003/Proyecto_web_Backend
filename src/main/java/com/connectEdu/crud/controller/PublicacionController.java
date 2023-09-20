@@ -15,6 +15,7 @@ import com.connectEdu.crud.service.PublicacionService;
 
 @RestController
 @RequestMapping("/publicacion")
+@CrossOrigin(origin = {"http://localhost:4200", "http://localhost:8080"})
 public class PublicacionController {
 
     @Autowired
