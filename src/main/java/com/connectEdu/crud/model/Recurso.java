@@ -1,4 +1,4 @@
-package com.connectEdu.crudProject.model;
+package com.connectEdu.crud.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

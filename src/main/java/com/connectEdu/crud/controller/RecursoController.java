@@ -1,8 +1,9 @@
-package com.connectEdu.crudProject.controller;
+package com.connectEdu.crud.controller;
 
 
-import com.connectEdu.crudProject.model.Recurso;
-import com.connectEdu.crudProject.service.RecursoService;
+import com.connectEdu.crud.model.Recurso;
+import com.connectEdu.crud.service.RecursoService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

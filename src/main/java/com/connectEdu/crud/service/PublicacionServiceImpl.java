@@ -37,19 +37,6 @@ public class PublicacionServiceImpl implements PublicacionService {
         return null; // O manejar de alguna otra manera si no se encuentra la publicación
     }
 
-    // @Override
-    // public Publicacion modifyPublicacion(Long id, Publicacion publicacion) {
-    // Optional<Publicacion> publicacionEncontrada =
-    // this.publicacionRepository.findById(publicacion.getId());
-    // if(publicacionEncontrada.get()!= null) {
-    // publicacionEncontrada.get().setComentarios(publicacion.getComentarios());
-    // publicacionEncontrada.get().setContenido(publicacion.getContenido());
-    // publicacionEncontrada.get().setUser(publicacion.getUser());
-    // return this.newPublicacion(publicacionEncontrada.get());
-    // }
-    // return null;
-    // }
-
     @Override
     public Boolean deletePublicacion(Long idPublicacion) {
         this.publicacionRepository.deleteById(idPublicacion);

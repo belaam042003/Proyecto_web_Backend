@@ -1,8 +1,9 @@
-package com.connectEdu.crudProject.service;
+package com.connectEdu.crud.service;
 
 
-import com.connectEdu.crudProject.model.Recurso;
-import com.connectEdu.crudProject.repository.RecursoRepsoitory;
+import com.connectEdu.crud.model.Recurso;
+import com.connectEdu.crud.repository.RecursoRepsoitory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
