@@ -1,0 +1,12 @@
+com\connectEdu\crud\repository\RecursoRepsoitory.class
+com\connectEdu\crud\repository\PublicacionRepository.class
+com\connectEdu\crud\service\PublicacionService.class
+com\connectEdu\crud\controller\RecursoController.class
+com\connectEdu\crud\service\RecursoService.class
+com\connectEdu\crud\service\PublicacionServiceImpl.class
+com\connectEdu\crud\model\Publicacion.class
+com\connectEdu\crud\CrudApplication.class
+com\connectEdu\crud\service\RecursoServiceImpl.class
+com\connectEdu\crud\model\Recurso.class
+com\connectEdu\crud\ServletInitializer.class
+com\connectEdu\crud\controller\PublicacionController.class
