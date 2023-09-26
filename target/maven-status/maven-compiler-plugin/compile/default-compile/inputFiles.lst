@@ -1,6 +1,7 @@
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\Demo\DemoController.java
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\CrudApplication.java
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\service\Login\RegistrarseServiceImpl.java
+E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\Jwt\JwtAuthentificationFilter.java
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\service\Login\InicioServiceImpl.java
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\controller\PublicacionController.java
 E:\Poyectos Universidad\ProyectoWeb\Proyecto_web_Backend\src\main\java\com\connectEdu\crud\ServletInitializer.java
