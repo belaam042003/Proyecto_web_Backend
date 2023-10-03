@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/recurso")
-@CrossOrigin(origins={"http://localhost:4200","http://localhost:8000'"})
+@CrossOrigin(origins={"http://localhost:4200","http://localhost:8080'"})
 public class RecursoController {
 
     @Autowired
